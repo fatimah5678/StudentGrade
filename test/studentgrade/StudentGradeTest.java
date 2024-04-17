@@ -1,13 +1,12 @@
 package studentgrade;
 
-import junit.framework.TestCase;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /* JUnit 3.8.1 */
-public class StudentGradeTest extends TestCase {
+public class StudentGradeTest {
     
-    public StudentGradeTest(String testName) {
-        super(testName);
-    }
+    
 
     public void testGetGrade95() {
         System.out.println("getGrade 95");
